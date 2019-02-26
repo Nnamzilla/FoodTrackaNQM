@@ -36,7 +36,7 @@ class RatingControl: UIStackView {
         let button = UIButton()
         button.backgroundColor = UIColor.red
         
-        // Add constraints
+        // Add constraints 
         button.translatesAutoresizingMaskIntoConstraints = false
         button.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
         button.weightAnchor.constraint(equalToConstant: 44.0).isActive = true
